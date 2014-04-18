@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.trickyandroid.fragmenttranslate.app.MainActivity" >
+    
+    <item android:id="@+id/action_show_list"
+        android:title="@string/action_show_list"
+        android:icon="@drawable/ic_action_view_as_list"
+        android:showAsAction="always" />
+</menu>
