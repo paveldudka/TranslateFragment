@@ -40,8 +40,8 @@
                             return true;
                         }
                     };
+                    getViewTreeObserver().addOnPreDrawListener(preDrawListener);
                 }
-                getViewTreeObserver().addOnPreDrawListener(preDrawListener);
                 return;
             }
 
